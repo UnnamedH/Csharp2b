@@ -79,34 +79,7 @@ namespace PolitechLab2b
 
      
 
-        /*private bool validateNumberField(object field, ErrorProvider errorProvider)
-        {
-            MaskedTextBox maskedTextBox = field as MaskedTextBox;
-            if (maskedTextBox.TextLength == 0)
-            {
-                errorProvider.SetError(maskedTextBox, "Field is empty!");
-                return false;
-            }
-            else
-            {
-           
-                return true;
-            }
-        }
-
-        private bool validateAllNumberFields()
-        {
-            bool result = true;
-            
-            result = result & validateNumberField(numericUpDownX1, errorProvider1);
-            result = result & validateNumberField(numericUpDownY1, errorProvider2);
-            result = result & validateNumberField(numericUpDownX2, errorProvider3);
-            result = result & validateNumberField(numericUpDownY2, errorProvider4);
-            result = result & validateNumberField(numericUpDownX3, errorProvider5);
-            result = result & validateNumberField(numericUpDownY3, errorProvider6);
-
-            return result;
-        }*/
+        
        
     }
 
